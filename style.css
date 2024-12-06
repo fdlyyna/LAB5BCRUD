@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif; /* Clean and professional font */
+    margin: 20px;
+    background-color: #f9f9f9; /* Neutral light background */
+    color: #222; /* Dark text for contrast */
+}
+
+/* Headings */
+h1, h2 {
+    color: #5e35b1; /* Pretty shade of purple */
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+button {
+    background-color: #7e57c2; /* Pretty purple */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e35b1; /* Darker purple on hover */
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    background: #fff;
+    text-align: left;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #ede7f6; /* Light purple background for headers */
+    color: #5e35b1; /* Purple text */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Links */
+a {
+    color: #7e57c2; /* Purple link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5e35b1; /* Darker purple on hover */
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #666; /* Subtle text color */
+}
+
+/* Messages */
+.success {
+    color: #7cb342; /* Soft green for success messages */
+    font-size: 14px;
+    text-align: center;
+}
+
+.error {
+    color: #e53935; /* Subtle red for error messages */
+    font-size: 14px;
+    text-align: center;
+}
+
+.success {
+    color: #28a745; /* Green color for success */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
